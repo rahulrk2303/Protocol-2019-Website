@@ -199,12 +199,9 @@ h1.heading {
   /*text-color: white;*/
 }
 
-.carousel{
-  /*margin-top: 50px;*/
-}
 .carousel-inner{
 /*   color: black; */
-  height: 350px;
+	height: 30rem;
 }
 .carousel-caption{
   color: #fff;
@@ -213,14 +210,17 @@ h1.heading {
 }
 
 .carousel-caption h3 {
-  font-size: 2.5rem;
+	/*top: 0;*/
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .carousel-caption p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: justify;
   text-justify: inter-word;
+  font-weight: 300;
+
 }
 
 
@@ -296,6 +296,15 @@ hr.socket {
     display: block;
     margin: 0 auto;
   }
+  .carousel-caption h3 {
+	  font-size: 1.5rem;
+	  font-weight: 700;
+	}
+
+.carousel-caption p {
+	  font-size: 1rem;
+	  font-weight: 300;
+	}
 }
 
 
