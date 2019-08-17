@@ -41,7 +41,7 @@ margin-right: 0px!important;
   background-position: center center;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
-  will-change: transform;
+  will-change: auto;
 }
 
 /*--- iOS Fixed Background Image --*/
@@ -69,5 +69,5 @@ margin-right: 0px!important;
   background-position: center center;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
-  will-change: transform;
+  will-change: auto;
 }
