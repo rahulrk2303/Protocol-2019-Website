@@ -9,12 +9,13 @@ body {
   background-color: rgb(230,250,255);
 }
 
-.offset:before {
-  /*display: block;*/
-  /*content: "";*/
-  /*height: 2rem;*/
-  /*margin-top: 4rem;*/
-}
+/*.offset:before {
+  display: block;
+  content: "";
+  height: 2rem;
+  margin-top: 4rem;
+  background-color: black;
+}*/
 
 svg.svg-inline--fa {
   color: #f44336;
