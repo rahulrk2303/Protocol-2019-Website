@@ -7,6 +7,7 @@ body {
   font-family: 'Raleway', sans-serif;
   color: #4d5461;
   background-color: rgb(230,250,255);
+  /*background-color: #00000D;*/
 }
 
 /*.offset:before {
@@ -31,12 +32,25 @@ svg.svg-inline--fa {
   background-color: rgba(0,0,0,0.95)!important;
 }
 
-/*.fa-code {
-  color: #673ab7;
-}*/
+.navbar-brand img {
+  -webkit-transition: all .3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+  -webkit-transform: scale(1.2);
+}
+
+.fa-code {
+  -webkit-transition: all .3s ease-in-out; 
+}
+
+.fa-code:hover {
+  -webkit-transform: scale(1.2);
+}
 
 .navbar-nav li {
   padding-right: 1rem;
+  -webkit-transition: all .3s ease-in-out;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -47,8 +61,8 @@ svg.svg-inline--fa {
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #f44336;
+  -webkit-transform: scale(1.1);
 }
-
 
 /* Landing Page */
 
@@ -101,6 +115,14 @@ svg.svg-inline--fa {
   background-color: rgba(0,0,0,0.6);
 }
 
+.caption img {
+  -webkit-transition: all .3s ease-in-out;
+}
+
+.caption img:hover {
+  -webkit-transform: scale(1.09);
+}
+
 
 /* Events */
 
@@ -116,6 +138,11 @@ h1.heading {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1.9rem;
+  -webkit-transition: all .3s ease-in-out;
+}
+
+h1.heading:hover {
+  -webkit-transform: scale(1.02);
 }
 
 .heading-underline {
@@ -142,6 +169,17 @@ h1.heading {
   margin: 1rem 0.4rem;
 }
 
+.events img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .3s ease-in-out;
+}
+
+.events img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.09);
+}
 
 /* Register */
 
@@ -199,14 +237,14 @@ h1.heading {
   margin-top: 1rem;
 }
 
-.team, .events, .caption img {
-  /*filter: gray; /* IE5+ */*/
-  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+.team img {
+  /*filter: gray;*/
+  /*-webkit-filter: grayscale(1);*/
   -webkit-transition: all .3s ease-in-out;
 }
 
-.team, .events, .caption img:hover {
-  filter: none;
+.team img:hover {
+  /*filter: none;*/
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.09);
 }
@@ -247,6 +285,14 @@ h1.heading {
 
 /* Contact */
 
+footer img {
+  -webkit-transition: all .3s ease-in-out;
+}
+
+footer img:hover {
+  -webkit-transform: scale(1.09);
+}
+
 footer {
   background-color: #20272e;
   color: white;
@@ -268,6 +314,7 @@ footer p {
   font-size: 1.2rem;
   text-align: justify;
   text-justify: inter-word;
+  font-weight: 400;
 }
 
 footer svg.svg-inline--fa {
@@ -327,9 +374,6 @@ hr.socket {
 	  font-weight: 300;
 	}
 }
-
-
-
 
 
 /*============ BOOTSTRAP BREAK POINTS:
