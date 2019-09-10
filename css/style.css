@@ -1,12 +1,12 @@
 /*@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');*/
 /*@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');*/
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
 
 body {
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
   color: #4d5461;
-  background-color: rgb(230,250,255);
+  background-color: #C6ECFF!important;
   /*background-color: #00000D;*/
 }
 
@@ -30,6 +30,7 @@ svg.svg-inline--fa {
   font-size: 1rem;
   letter-spacing: 0.1rem;
   background-color: rgba(0,0,0,0.95)!important;
+  /*color: white;*/
 }
 
 .navbar-brand img {
@@ -50,18 +51,19 @@ svg.svg-inline--fa {
 
 .navbar-nav li {
   padding-right: 1rem;
-  -webkit-transition: all .3s ease-in-out;
+  /*-webkit-transition: all .3s ease-in-out;*/
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+  color: white!important;
   padding-top: 0.8rem;
 }
 
 .navbar-dark .navbar-nav .nav-link.active, 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #f44336;
-  -webkit-transform: scale(1.1);
+  color: #f44336!important;
+  /*-webkit-transform: scale(1.1);*/
+  /*font-size: 1.1rem;*/
 }
 
 /* Landing Page */
@@ -123,6 +125,9 @@ svg.svg-inline--fa {
   -webkit-transform: scale(1.09);
 }
 
+#particles-js {
+  height: 100vh;
+}
 
 /* Events */
 
@@ -130,8 +135,12 @@ svg.svg-inline--fa {
   margin-bottom: 0;
   padding: 2rem 0 3.5rem;
   border-radius: 0;
-  background-color: rgb(230,250,255);
+  background-color: rgb(230,250,255)!important;
 }
+
+/*#events .jumbotron {
+  background-image: url("../img/13.jpg");
+}*/
 
 h1.heading {
   font-size: 1.9rem;
@@ -173,13 +182,17 @@ h1.heading:hover {
   filter: gray;
   -webkit-filter: grayscale(1);
   -webkit-transition: all .3s ease-in-out;
+  /*max-width: 20rem;*/
+  max-width: 20rem;
 }
 
 .events img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
-  -webkit-transform: scale(1.09);
+  -webkit-transform: scale(1.05);
+  /*box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
 }
+
 
 /* Register */
 
@@ -247,6 +260,10 @@ h1.heading:hover {
   /*filter: none;*/
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.09);
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("../img/7.jpg");
 }
 
 
@@ -356,14 +373,21 @@ hr.socket {
     font-size: 1rem;
     /*text-transform: uppercase;*/
   }
+
   .narrow h1 {
     font-size: 1.5rem;
   }
+
   .team img {
     max-width: 14rem;
     display: block;
     margin: 0 auto;
   }
+
+  .events img {
+    filter: none;
+  }
+
   .carousel-caption h3 {
 	  font-size: 1.5rem;
 	  font-weight: 700;
