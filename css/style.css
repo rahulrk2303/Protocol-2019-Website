@@ -72,6 +72,7 @@ svg.svg-inline--fa {
 /* Landing Page */
 
 .home-inner {
+  background-color: black;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(../img/background.jpg);
 }
 
@@ -366,6 +367,11 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA);
 }
 
 
+/*Sponsors*/
+
+
+
+
 /* About - Carousel*/
 
 #about .fixed {
@@ -503,6 +509,14 @@ hr.socket {
 	  font-weight: 300;
 	}
 
+	#particles-js {
+		display: none;
+	}
+
+	.carousel-inner{
+/*   color: black; */
+	height: 90vh;
+}
 
 }
 
