@@ -202,6 +202,11 @@ h1.heading:hover {
 
 }
 
+/*.mshad {
+  max-width: 20rem;
+  min-width: 10rem;
+}
+*/
 .mshad, .team img:hover  {
 	box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	/*max-width: 10rem;*/
@@ -231,6 +236,10 @@ background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 background: #A1FFCE;  
 background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE); 
 background: linear-gradient(to right, #FAFFD1, #A1FFCE); 
+}
+
+.modal a {
+  color: black;
 }
 
 /* Register */
@@ -314,6 +323,12 @@ background: linear-gradient(to right, #FAFFD1, #A1FFCE);
   -webkit-transform: scale(1.09);
 }
 
+.team a {
+  color: black;
+}
+
+
+
 .jumbotron {
 
 background: #7F7FD5; 
@@ -369,8 +384,23 @@ background: linear-gradient(to right, #0ED2F7, #B2FEFA);
 
 /*Sponsors*/
 
+.sponsor {
+  margin-bottom: 4rem;
+}
 
+.sponsor .btn {
+  color: black;
+}
 
+.sponsor .follow {
+  text-decoration: none; 
+  color:blue;
+}
+
+.sponsor .follow:hover {
+  text-decoration: none; 
+  color:#f44336;
+}
 
 /* About - Carousel*/
 
